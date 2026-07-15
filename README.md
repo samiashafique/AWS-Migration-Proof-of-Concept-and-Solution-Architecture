@@ -8,7 +8,7 @@ The objective of the project was to evaluate the feasibility of migrating the ap
 
 This project demonstrates cloud solution architecture principles and migration planning aligned with AWS best practices.
 
----
+_The application is a pricing application that receives real-time stock prices from exchanges through a data vendor. Once the stock price goes through, the proxy hits Feeder’s interface application. The feeder and pricing application will run 24/6 and any maintenance activities will be conducted on Sunday. The pricing application and feeder application will be moved to the cloud and will continue to receive data from the same data vendor. The cloud hosted applications will benefit from high availability, scalability, security, reliability and reduced admin overhead._
 
 ## Project Objectives
 
